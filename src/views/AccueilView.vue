@@ -36,24 +36,34 @@
     </header>
     <div class="flex flex-col justify-center items-center pt-64">
       <img src="/text_logo.svg" class="w-72">
-    <div class="mx-44  text-center">
-      <p class="mt-44 font-bold text-white text-5xl">Faster and faster music that sets the world on fire</p>
+    <div class="mx-8  text-center">
+      <p class="mt-44 font-bold text-white text-3xl">Faster and faster music that sets the world on fire</p>
     </div>
     </div>
     
   </div>
   
+  <p class="text-white">CONCERTS</p>
   <div class="flex flex-col justify-center items-center">
+    <div class="flex flex-row items-center">
+      <img src="../../public/Vector-1.png" alt="flêche gauche">
     <card 
     img="/public/Marshmello.png"
     genre="disk-jockey"
     nom="Marshello"/>
+    <img src="../../public/Vector.png" alt="flêche droite">
+    </div>
+    
 
+<div class="flex flex-row items-center">
+  <img src="../../public/Vector-1.png" alt="">
     <card 
     img="/public/Martin_garrix.png"
     genre="disk-jockey"
     nom="Martin Garrix"/>
-  </div>
+    <img src="../../public/Vector.png" alt="">
+      </div>
+    </div>
 </div>
 
 

@@ -7,7 +7,7 @@
       <div class="flex mt-2 justify-between ml-3 mr-3 gap-4">
         <div class="flex flex-col  shadow-box">
           <div>
-            <img :src="img" alt="">
+            <img :src="img" alt="" class="w-48">
           </div>
           <div class="carre_artiste mt-[-15px] bg-white rounded-3xl m-4">
             <h4 class="text-center font-prompt font-semibold color-text-black mt-1 shadow_text">{{ genre }}</h4>
@@ -19,7 +19,7 @@
       </RouterLink>
       <div class="flex justify-end mr-3">
         <div class="line2 "></div>
-      </div> 
+      </div>  
     </div>
 </template>
 
