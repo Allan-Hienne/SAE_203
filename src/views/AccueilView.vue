@@ -1,4 +1,5 @@
 <template>
+<div class="bg-black">
   <div class="bg-[url('/image2.png')] w-screen h-screen bg-cover bg-no-repeat ">
     <header class="sticky top-0 z-40 h-16 w-full px-3">
       <div class="flex h-full w-full items-center justify-between">
@@ -39,8 +40,21 @@
       <p class="mt-44 font-bold text-white text-5xl">Faster and faster music that sets the world on fire</p>
     </div>
     </div>
+    
   </div>
   
+  <div class="flex flex-col justify-center items-center">
+    <card 
+    img="/public/Marshmello.png"
+    genre="disk-jockey"
+    nom="Marshello"/>
+
+    <card 
+    img="/public/Martin_garrix.png"
+    genre="disk-jockey"
+    nom="Martin Garrix"/>
+  </div>
+</div>
 
 
 
@@ -48,7 +62,14 @@
   
 </template>
 
-<script setup>
+<script>
+import card from "../components/card.vue"
+
+export default {
+  components:{
+    card
+  }
+};
 </script>
 
 <style>
