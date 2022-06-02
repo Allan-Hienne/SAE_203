@@ -28,7 +28,8 @@
               >PROGRAMMATION</RouterLink>
             <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
               >ARTISTES</RouterLink>
-            <li>FESTIVAL</li>
+            <RouterLink to="/Festival" @click="MenuOpen = !MenuOpen"
+              >FESTIVAL</RouterLink>
           </ul>
         </nav>
 
@@ -36,12 +37,12 @@
 
       </div>
     </header>
-
-    <div class="flex justify-center mr-96 mt-16">
+</div>
+    <div class="flex justify-center mr-96 mt-[-550px]">
   <p class="text-white font-prompt font-bold border-b-2 border-white m-6 mr-96 text-2xl">Découvrez nos artistes !</p>
   </div>
   <div class="flex justify-center mr-96 mt-2">
-  <p class="text-white font-prompt font-light m-6 mr-96 text-2xl">Genre</p>
+  <p class="text-white font-prompt font-light m-6 mr-96 text-2xl">GENRE</p>
   </div>
   <div class="grid grid-cols-7">
 <div class="col-start-3 col-end-3 row-start-1 items-center">
@@ -60,10 +61,41 @@
     <img src="../../public/image17.png" alt="" class="rounded-2xl">
     <p class="font-prompt font-extrabold text-amber-500">DANCE ELECTRO</p>
 </div>
- <div class="flex justify-center mr-96 mt-2 bg-black">
+
+</div>
+
+ <div class="flex justify-center mr-96 mt-12">
   <p class="text-white font-prompt font-light m-6 mr-96 text-2xl">NOS ARTISTES</p>
   </div>
-</div>
+
+  <div class="grid grid-cols-7">
+    <card class="col-start-3 col-end-3 row-start-1 items-center"
+    img="/public/MARTINgarrix.png"
+    genre="DISK-JOCKEY"
+    nom="Martin Garrix"/>
+    <card class="col-start-5 col-end-5 row-start-1 items-center"
+    img="/public/DAVIDguetta.png"
+    genre="DISK-JOCKEY"
+    nom="Davis Guetta"/>
+    <card class="col-start-3 col-end-3 row-start-2 items-center"
+    img="/public/DJsnake.png"
+    genre="DISK-JOCKEY"
+    nom="DJ Snake"/>
+    <card class="col-start-5 col-end-5 row-start-2 items-center"
+    img="/public/Marsh.png"
+    genre="DISK-JOCKEY"
+    nom="Marshmello"/>
+    <card class="col-start-3 col-end-3 row-start-3 items-center"
+    img="/public/CALVINharris.png"
+    genre="DISK-JOCKEY"
+    nom="Calvin Harris"/>
+    <card class="col-start-5 col-end-5 row-start-3 items-center"
+    img="/public/petitBiscuit.png"
+    genre="DISK-JOCKEY"
+    nom="Petit Biscuit"/>
+
+  </div>
+
   <div class="flex flex-col justify-center items-center mt-20 bg-black">
      <img src="logo.png" alt="" class="w-10">
      <img src="text_logo.svg" alt="" class="w-44 mt-6">
@@ -85,16 +117,18 @@
        <p class="col-start-4 col-end-4 row-start-3 items-center mt-3">-> PROGRAMMATION</p>
      </div>
    </div>
-</div>
+
 
 </div>
 </template>
 
 <script>
+import card from "../components/card.vue"
 import cardConcert from "../components/cardConcert.vue"
 
 export default {
   components:{
+      card,
     cardConcert
   }
 };

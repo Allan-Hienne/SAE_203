@@ -28,7 +28,8 @@
               >PROGRAMMATION</RouterLink>
             <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
               >ARTISTES</RouterLink>
-            <li>FESTIVAL</li>
+            <RouterLink to="/Festival" @click="MenuOpen = !MenuOpen"
+              >FESTIVAL</RouterLink>
           </ul>
         </nav>
 
