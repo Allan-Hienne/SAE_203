@@ -9,13 +9,16 @@
           <div>
             <img :src="img" alt="" class="w-48">
           </div>
-          <div class="carre_artiste mt-[-15px] bg-white rounded-3xl m-4">
-            <h4 class="text-center font-prompt font-semibold color-text-black mt-1 shadow_text">{{ genre }}</h4>
-            <h3 class="text-center font-prompt font-semibold color-text-black mt-1 shadow_text">{{ nom }}</h3>
+          <div class="carre_artiste mt-[-30px] bg-white rounded-2xl m-4">
+            <h4 class="text-left font-prompt font-semibold text-red-600 mt-1 ml-2 shadow_text text-xs">{{ genre }}</h4>
+            <h3 class="text-left font-prompt font-extrabold color-text-black mt-1 ml-2 shadow_text text-base">{{ nom }}</h3>
           </div>
         </div>
       </div>
       <RouterLink to="prog" class="">
+        <div class="flex justify-end mr-5">
+          <p class="font-prompt font-bold text-white shadow_text">En savoir plus</p>
+        </div>
       </RouterLink>
       <div class="flex justify-end mr-3">
         <div class="line2 "></div>

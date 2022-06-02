@@ -42,29 +42,53 @@
     </div>
     
   </div>
-  
-  <p class="text-white">CONCERTS</p>
+  <div class="flex justify-center mr-96">
+  <p class="text-white font-prompt font-bold">CONCERTS</p>
+  </div>
   <div class="flex flex-col justify-center items-center">
     <div class="flex flex-row items-center">
       <img src="../../public/Vector-1.png" alt="flêche gauche">
     <card 
     img="/public/Marshmello.png"
-    genre="disk-jockey"
-    nom="Marshello"/>
+    genre="JOUR 1 / PARTIE 1"
+    nom="Futur Bass Concert"/>
     <img src="../../public/Vector.png" alt="flêche droite">
     </div>
     
-
+  <div class="flex justify-center mr-96 mt-16">
+  <p class="text-white font-prompt font-bold">ARTISTES</p>
+  </div>
 <div class="flex flex-row items-center">
   <img src="../../public/Vector-1.png" alt="">
     <card 
     img="/public/Martin_garrix.png"
-    genre="disk-jockey"
+    genre="DISK-JOCKEY"
     nom="Martin Garrix"/>
     <img src="../../public/Vector.png" alt="">
       </div>
     </div>
+    <div class="flex flex-col justify-center">
+
+   
+      <div class="flex justify-center mr-96 mt-16">
+  <p class="text-white font-prompt font-bold border-b-4 border-white m-6">GALERIE D'IMAGES</p>
+  </div>
+  <div class=" grid grid-cols-5 justify-center items-center">
+    <img class="col-start-2 col-end-2 row-start-1 items-center " src="../../public/image6.png" alt="">
+    <img class="col-start-2 col-end-2 row-start-2 items-center " src="../../public/image7.png" alt="">
+    <img class="col-start-2 col-end-2 row-start-3 items-center " src="../../public/image8.png" alt="">
+    <img class="col-start-2 col-end-2 row-start-4 items-center " src="../../public/image9.png" alt="">
+    <img class="col-start-4 col-end-4 row-start-1 items-center " src="../../public/image10.png" alt="">
+    <img class="col-start-4 col-end-4 row-start-2 items-center" src="../../public/image11.png" alt="">
+    <img class="col-start-4 col-end-4 row-start-3 items-center " src="../../public/image12.png" alt="">
+    <img class="col-start-4 col-end-4 row-start-4 items-center " src="../../public/image13.png" alt="">
+  </div>
+          
+   </div>
 </div>
+
+
+
 
 
 
