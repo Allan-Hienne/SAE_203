@@ -4,7 +4,7 @@
     <header class="sticky top-0 z-40 h-16 w-full px-3">
       <div class="flex h-full w-full items-center justify-between">
         <div class="flex items-center">
-          <img src="../../public/logo.png " alt="logo_fest" class="" />
+          <img src="/logo.png " alt="logo_fest" class="" />
         </div>
         <div class="lg:hidden">
           <MenuIcon class="w-8 cursor-pointer" @click="MenuOpen = !MenuOpen" />
@@ -49,24 +49,24 @@
   </div>
   <div class="flex flex-col justify-center items-center">
     <div class="flex flex-row items-center">
-      <img src="../../public/Vector-1.png" alt="flêche gauche">
+      <img src="/Vector-1.png" alt="flêche gauche">
     <card 
     img="/public/Marshmello.png"
     genre="JOUR 1 / PARTIE 1"
     nom="Futur Bass Concert"/>
-    <img src="../../public/Vector.png" alt="flêche droite">
+    <img src="/Vector.png" alt="flêche droite">
     </div>
     
   <div class="flex justify-center mr-96 mt-16">
   <p class="text-white font-prompt font-bold border-b-2 border-white m-6">ARTISTES</p>
   </div>
 <div class="flex flex-row items-center">
-  <img src="../../public/Vector-1.png" alt="">
+  <img src="/Vector-1.png" alt="">
     <card 
     img="/public/Martin_garrix.png"
     genre="DISK-JOCKEY"
     nom="Martin Garrix"/>
-    <img src="../../public/Vector.png" alt="">
+    <img src="/Vector.png" alt="">
       </div>
     </div>
     <div class="flex flex-col justify-center">
@@ -76,28 +76,28 @@
   <p class="text-white font-prompt font-bold border-b-2 border-white m-6 ">GALERIE D'IMAGES</p>
   </div>
   <div class=" grid grid-cols-5 justify-center items-center">
-    <img class="col-start-2 col-end-2 row-start-1 items-center " src="../../public/image6.png" alt="dfv">
-    <img class="col-start-2 col-end-2 row-start-2 items-center " src="../../public/image7.png" alt="vdf">
-    <img class="col-start-2 col-end-2 row-start-3 items-center " src="../../public/image8.png" alt="vdf">
-    <img class="col-start-2 col-end-2 row-start-4 items-center " src="../../public/image9.png" alt="vd">
-    <img class="col-start-4 col-end-4 row-start-1 items-center " src="../../public/image10.png" alt="te">
-    <img class="col-start-4 col-end-4 row-start-2 items-center" src="../../public/image11.png" alt="bd">
-    <img class="col-start-4 col-end-4 row-start-3 items-center " src="../../public/image12.png" alt="sbs">
-    <img class="col-start-4 col-end-4 row-start-4 items-center " src="../../public/image13.png" alt="">
+    <img class="col-start-2 col-end-2 row-start-1 items-center " src="/image6.png" alt="dfv">
+    <img class="col-start-2 col-end-2 row-start-2 items-center " src="/image7.png" alt="vdf">
+    <img class="col-start-2 col-end-2 row-start-3 items-center " src="/image8.png" alt="vdf">
+    <img class="col-start-2 col-end-2 row-start-4 items-center " src="/image9.png" alt="vd">
+    <img class="col-start-4 col-end-4 row-start-1 items-center " src="/image10.png" alt="te">
+    <img class="col-start-4 col-end-4 row-start-2 items-center" src="/image11.png" alt="bd">
+    <img class="col-start-4 col-end-4 row-start-3 items-center " src="/image12.png" alt="sbs">
+    <img class="col-start-4 col-end-4 row-start-4 items-center " src="/image13.png" alt="">
   </div>
           
    </div>
    <div class="flex flex-col justify-center items-center mt-20">
-     <img src="logo.png" alt="" class="w-10">
-     <img src="text_logo.svg" alt="" class="w-44 mt-6">
+     <img src="/logo.png" alt="" class="w-10">
+     <img src="/text_logo.svg" alt="" class="w-44 mt-6">
      <div class="flex items-center mt-8">
-       <img src="../../public/Rectangle 10.png" alt="" class="mx-4">
-       <img src="../../public/twitter-logo-silhouette 1.png" alt="" class="mx-4">
-       <img src="../../public/logo-instagram-blanc 1.png" alt="" class="mx-4">
-       <img src="../../public/logo-facebook-blanc 1.png" alt="" class="mx-4">
-       <img src="../../public/twitter-logo-silhouette 1.png" alt="" class="mx-4">
-       <img src="../../public/youtube 1.png" alt="" class="mx-4">
-       <img src="../../public/Rectangle 10.png" alt="" class="mx-4">
+       <img src="/Rectangle10.png" alt="" class="mx-4">
+       <img src="/twitter-logo-silhouette1.png" alt="" class="mx-4">
+       <img src="/logo-instagram-blanc1.png" alt="" class="mx-4">
+       <img src="/logo-facebook-blanc1.png" alt="" class="mx-4">
+       <img src="/twitter-logo-silhouette1.png" alt="" class="mx-4">
+       <img src="/youtube1.png" alt="" class="mx-4">
+       <img src="/Rectangle10.png" alt="" class="mx-4">
      </div>
      <div class="text-white grid grid-cols-5 justify-center items-center mt-12 mb-24">
        <div class="lg:hidden">
@@ -110,7 +110,7 @@
        <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
               class="col-start-4 col-end-4 row-start-1 items-center">-> ARTISTES</RouterLink>
        <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
-              class="col-start-4 col-end-4 row-start-2 items-center mt-3">-> FESTIVAL</RouterLink>
+              class="col-start-4 col-end-4 row-start-2 items-center">-> FESTIVAL</RouterLink>
        <RouterLink to="/Programmation" @click="MenuOpen = !MenuOpen"
               class="col-start-4 col-end-4 row-start-3 items-center mt-3">-> PROGRAMMATION</RouterLink>
      </div>

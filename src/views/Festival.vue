@@ -4,7 +4,7 @@
     <header class="sticky top-0 z-40 h-16 w-full px-3">
       <div class="flex h-full w-full items-center justify-between">
         <div class="flex items-center">
-          <img src="../../public/logo.png " alt="logo_fest" class="" />
+          <img src="/logo.png " alt="logo_fest" class="" />
         </div>
         <div class="lg:hidden">
           <MenuIcon class="w-8 cursor-pointer" @click="MenuOpen = !MenuOpen" />
@@ -59,35 +59,35 @@
   </div>
 
   <div class=" grid grid-cols-9 justify-center items-center">
-    <img class="col-start-3 col-end-3 row-start-1 items-center " src="../../public/image6.png" alt="dfv">
-    <img class="col-start-5 col-end-5 row-start-1 items-center " src="../../public/image7.png" alt="vdf">
-    <img class="col-start-7 col-end-7 row-start-1 items-center " src="../../public/image8.png" alt="vdf">
-    <img class="col-start-3 col-end-3 row-start-2 items-center " src="../../public/image9.png" alt="vd">
-    <img class="col-start-5 col-end-5 row-start-2 items-center " src="../../public/image10.png" alt="te">
-    <img class="col-start-7 col-end-7 row-start-2 items-center" src="../../public/image11.png" alt="bd">
-    <img class="col-start-3 col-end-3 row-start-3 items-center " src="../../public/image12.png" alt="sbs">
-    <img class="col-start-5 col-end-5 row-start-3 items-center " src="../../public/image13.png" alt="ys">
-    <img class="col-start-7 col-end-7 row-start-3 items-center " src="../../public/image23.png" alt="vdf">
-    <img class="col-start-3 col-end-3 row-start-4 items-center " src="../../public/image24.png" alt="vd">
-    <img class="col-start-5 col-end-5 row-start-4 items-center " src="../../public/image25.png" alt="te">
-    <img class="col-start-7 col-end-7 row-start-4 items-center" src="../../public/image26.png" alt="bd">
-    <img class="col-start-3 col-end-3 row-start-5 items-center " src="../../public/image27.png" alt="sbs">
-    <img class="col-start-5 col-end-5 row-start-5 items-center " src="../../public/image28.png" alt="ys">
+    <img class="col-start-3 col-end-3 row-start-1 items-center " src="/image6.png" alt="dfv">
+    <img class="col-start-5 col-end-5 row-start-1 items-center " src="/image7.png" alt="vdf">
+    <img class="col-start-7 col-end-7 row-start-1 items-center " src="/image8.png" alt="vdf">
+    <img class="col-start-3 col-end-3 row-start-2 items-center " src="/image9.png" alt="vd">
+    <img class="col-start-5 col-end-5 row-start-2 items-center " src="/image10.png" alt="te">
+    <img class="col-start-7 col-end-7 row-start-2 items-center" src="/image11.png" alt="bd">
+    <img class="col-start-3 col-end-3 row-start-3 items-center " src="/image12.png" alt="sbs">
+    <img class="col-start-5 col-end-5 row-start-3 items-center " src="/image13.png" alt="ys">
+    <img class="col-start-7 col-end-7 row-start-3 items-center " src="/image23.png" alt="vdf">
+    <img class="col-start-3 col-end-3 row-start-4 items-center " src="/image24.png" alt="vd">
+    <img class="col-start-5 col-end-5 row-start-4 items-center " src="/image25.png" alt="te">
+    <img class="col-start-7 col-end-7 row-start-4 items-center" src="/image26.png" alt="bd">
+    <img class="col-start-3 col-end-3 row-start-5 items-center " src="/image27.png" alt="sbs">
+    <img class="col-start-5 col-end-5 row-start-5 items-center " src="/image28.png" alt="ys">
   </div>
 
 
 
   <div class="flex flex-col justify-center items-center mt-20 bg-black">
-     <img src="logo.png" alt="" class="w-10">
-     <img src="text_logo.svg" alt="" class="w-44 mt-6">
+     <img src="/logo.png" alt="" class="w-10">
+     <img src="/text_logo.svg" alt="" class="w-44 mt-6">
      <div class="flex items-center mt-8">
-       <img src="../../public/Rectangle 10.png" alt="" class="mx-4">
-       <img src="../../public/twitter-logo-silhouette 1.png" alt="" class="mx-4">
-       <img src="../../public/logo-instagram-blanc 1.png" alt="" class="mx-4">
-       <img src="../../public/logo-facebook-blanc 1.png" alt="" class="mx-4">
-       <img src="../../public/twitter-logo-silhouette 1.png" alt="" class="mx-4">
-       <img src="../../public/youtube 1.png" alt="" class="mx-4">
-       <img src="../../public/Rectangle 10.png" alt="" class="mx-4">
+       <img src="/Rectangle10.png" alt="" class="mx-4">
+       <img src="/twitter-logo-silhouette1.png" alt="" class="mx-4">
+       <img src="/logo-instagram-blanc1.png" alt="" class="mx-4">
+       <img src="/logo-facebook-blanc1.png" alt="" class="mx-4">
+       <img src="/twitter-logo-silhouette1.png" alt="" class="mx-4">
+       <img src="/youtube1.png" alt="" class="mx-4">
+       <img src="/Rectangle10.png" alt="" class="mx-4">
      </div>
      <div class="text-white grid grid-cols-5 justify-center items-center mt-12 mb-24">
        <p class="col-start-2 col-end-2 row-start-1 items-center">-> BILLETS</p>
