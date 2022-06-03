@@ -51,7 +51,7 @@
     <div class="flex flex-row items-center">
       <img src="/Vector-1.png" alt="flêche gauche">
     <card 
-    img="/public/Marshmello.png"
+    img="/Marshmello.png"
     genre="JOUR 1 / PARTIE 1"
     nom="Futur Bass Concert"/>
     <img src="/Vector.png" alt="flêche droite">
@@ -63,7 +63,7 @@
 <div class="flex flex-row items-center">
   <img src="/Vector-1.png" alt="">
     <card 
-    img="/public/Martin_garrix.png"
+    img="/Martin_garrix.png"
     genre="DISK-JOCKEY"
     nom="Martin Garrix"/>
     <img src="/Vector.png" alt="">
