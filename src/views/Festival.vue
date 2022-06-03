@@ -41,18 +41,17 @@
 
 
 </div>
-
- <div class="justify-center items-center mr-96 mt-[-550px]">
+ <div class=" flex flex-col justify-center items-center mr-96 mt-[-550px]">
   <p class="text-white font-prompt font-bold border-b-2 border-white m-6 ">GALERIE D'IMAGES</p>
-  <div class="justify-center items-center">
+  </div>
+  <div class="flex flex-col justify-center items-center mx-36">
     <p class="flex text-white font-prompt font-bold text-lg mt-16">Notre Festival SPEEDFIRE à été crée dans le but de rassembler bon nombre d’entre vous afin de vous faire passer le week-end le plus dingue de votre vie, afin de permettre à l’ensemble des festivaliers de faire de nouvelles rencontres.</p>
     <p class="flex text-white font-prompt font-bold text-lg mt-16">Cette année nous nous sommes surpassés, nous avons l’honneur d’avoir pour cette évênement des mastodontes de la musique, merci à David Guetta, Martin Garrix, DJ Snake, Petit Biscuit, Calvin Harris ainsi que Marshmello d’avoir répondu à l’appel et ainsi pouvoir passer un Festival qui sera plus que mémorable !</p>
     <p class="flex text-white font-prompt font-bold text-lg mt-16">C’est grâce à vous si cet évênement peut avoir lieu ! Sans vous, ce week-end n’existerais probablement pas...</p>
     <p class="flex text-white font-prompt font-bold text-lg mt-16 justify-center">MERCI à VOUS d’être présent !</p>
-</div>
-
-  </div>
-<div class="flex justify-center mr-96">
+    </div>
+  
+<div class="flex justify-center mr-96 mt-16">
   <p class="text-white font-prompt font-bold border-b-2 border-white m-6 mr-96 text-2xl">Retrouvez ici notre Galerie</p>
   </div>
   <div class="flex justify-center mr-96 mt-2">
@@ -92,11 +91,15 @@
      </div>
      <div class="text-white grid grid-cols-5 justify-center items-center mt-12 mb-24">
        <p class="col-start-2 col-end-2 row-start-1 items-center">-> BILLETS</p>
-       <p class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</p>
+       <RouterLink to="/Contact" @click="MenuOpen = !MenuOpen"
+              class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</RouterLink>
        <p class="col-start-2 col-end-2 row-start-3 items-center mt-3">-> MENTIONS LEGALES</p>
-       <p class="col-start-4 col-end-4 row-start-1 items-center ">-> ARTISTES</p>
-       <p class="col-start-4 col-end-4 row-start-2 items-center mt-3">-> FESTIVALS</p>
-       <p class="col-start-4 col-end-4 row-start-3 items-center mt-3">-> PROGRAMMATION</p>
+       <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-1 items-center">-> ARTISTES</RouterLink>
+       <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-2 items-center mt-3">-> FESTIVAL</RouterLink>
+       <RouterLink to="/Programmation" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-3 items-center mt-3">-> PROGRAMMATION</RouterLink>
      </div>
    </div>
 

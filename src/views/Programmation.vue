@@ -74,11 +74,15 @@ jour="31 JUILLET 2022 / PARTIE 2"/>
      </div>
      <div class="text-white grid grid-cols-5 justify-center items-center mt-12 mb-24">
        <p class="col-start-2 col-end-2 row-start-1 items-center">-> BILLETS</p>
-       <p class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</p>
+       <RouterLink to="/Contact" @click="MenuOpen = !MenuOpen"
+              class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</RouterLink>
        <p class="col-start-2 col-end-2 row-start-3 items-center mt-3">-> MENTIONS LEGALES</p>
-       <p class="col-start-4 col-end-4 row-start-1 items-center ">-> ARTISTES</p>
-       <p class="col-start-4 col-end-4 row-start-2 items-center mt-3">-> FESTIVALS</p>
-       <p class="col-start-4 col-end-4 row-start-3 items-center mt-3">-> PROGRAMMATION</p>
+       <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-1 items-center">-> ARTISTES</RouterLink>
+       <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-2 items-center mt-3">-> FESTIVAL</RouterLink>
+       <RouterLink to="/Programmation" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-3 items-center mt-3">-> PROGRAMMATION</RouterLink>
      </div>
    </div>
 </div>
