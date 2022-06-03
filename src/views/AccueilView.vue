@@ -103,7 +103,8 @@
        <div class="lg:hidden">
           <MenuIcon class="w-8 cursor-pointer" @click="MenuOpen = !MenuOpen" />
         </div>
-       <p class="col-start-2 col-end-2 row-start-1 items-center">-> BILLETS</p>
+       <RouterLink to="/listeArtiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-2 col-end-2 row-start-1 items-center mt-3">-> LISTE ARTISTE</RouterLink>
        <RouterLink to="/Contact" @click="MenuOpen = !MenuOpen"
               class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</RouterLink>
        <p class="col-start-2 col-end-2 row-start-3 items-center mt-3">-> MENTIONS LEGALES</p>

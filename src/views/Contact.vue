@@ -67,7 +67,8 @@
        <img src="/Rectangle10.png" alt="" class="mx-4">
      </div>
      <div class="text-white grid grid-cols-5 justify-center items-center mt-12 mb-24">
-       <p class="col-start-2 col-end-2 row-start-1 items-center">-> BILLETS</p>
+       <RouterLink to="/listeArtiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-2 col-end-2 row-start-1 items-center mt-3">-> LISTE ARTISTE</RouterLink>
        <RouterLink to="/Contact" @click="MenuOpen = !MenuOpen"
               class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</RouterLink>
        <p class="col-start-2 col-end-2 row-start-3 items-center mt-3">-> MENTIONS LEGALES</p>
