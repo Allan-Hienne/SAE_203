@@ -70,27 +70,27 @@
 
   <div class="grid grid-cols-7">
     <card class="col-start-3 col-end-3 row-start-1 items-center"
-    img="/public/MARTINgarrix.png"
+    img="/MARTINgarrix.png"
     genre="DISK-JOCKEY"
     nom="Martin Garrix"/>
     <card class="col-start-5 col-end-5 row-start-1 items-center"
-    img="/public/DAVIDguetta.png"
+    img="/DAVIDguetta.png"
     genre="DISK-JOCKEY"
     nom="Davis Guetta"/>
     <card class="col-start-3 col-end-3 row-start-2 items-center"
-    img="/public/DJsnake.png"
+    img="/DJsnake.png"
     genre="DISK-JOCKEY"
     nom="DJ Snake"/>
     <card class="col-start-5 col-end-5 row-start-2 items-center"
-    img="/public/Marsh.png"
+    img="/Marsh.png"
     genre="DISK-JOCKEY"
     nom="Marshmello"/>
     <card class="col-start-3 col-end-3 row-start-3 items-center"
-    img="/public/CALVINharris.png"
+    img="/CALVINharris.png"
     genre="DISK-JOCKEY"
     nom="Calvin Harris"/>
     <card class="col-start-5 col-end-5 row-start-3 items-center"
-    img="/public/petitBiscuit.png"
+    img="/petitBiscuit.png"
     genre="DISK-JOCKEY"
     nom="Petit Biscuit"/>
 

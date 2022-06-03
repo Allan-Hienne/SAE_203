@@ -44,19 +44,19 @@
   <p class="text-white font-prompt font-light m-6 mr-96 text-xl ml-80">POPULAIRE</p>
   <div class="flex justify-center items-center">
   <card-concert
-image="/public/marshmellocard.png"
+image="/marshmellocard.png"
 artiste="Futur Bass Concert"
 jour="30 JUILLET 2022 / PARTIE 1"/>
 <card-concert
-image="/public/davidg.png"
+image="/davidg.png"
 artiste="Dance Electronic"
 jour="30 JUILLET 2022 / PARTIE 2"/>
 <card-concert
-image="/public/marting.png"
+image="/marting.png"
 artiste="House / Futur Bass"
 jour="31 JUILLET 2022 / PARTIE 1"/>
 <card-concert
-image="/public/calvinh.png"
+image="/calvinh.png"
 artiste="Electro"
 jour="31 JUILLET 2022 / PARTIE 2"/>
 </div>
