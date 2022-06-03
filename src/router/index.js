@@ -1,3 +1,12 @@
+// Fonctions Firestore
+import {
+  getFirestore,
+  collection,
+  onSnapshot,
+  query,
+  where,
+} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
+
 import { createRouter, createWebHistory } from 'vue-router'
 import AccueilView from '../views/AccueilView.vue'
 import Programmation from '../views/Programmation.vue'

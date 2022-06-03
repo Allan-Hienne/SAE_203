@@ -1,12 +1,6 @@
 <template>
   <div class="container">
-    <div class="card-header">
-      <h2
-        class="ml-1 mb-6 mt-10 w-80 -rotate-6 bg-black font-archivo-black text-xl text-white"
-      >
-        LES ARTISTES
-      </h2>
-    </div>
+
 
     <form>
       <h3 class="m-3 font-bold dark:bg-grey dark:text-white">Nouvel artiste</h3>
@@ -89,6 +83,35 @@
           </tr>
         </tbody>
       </table>
+      <div class="flex flex-col justify-center items-center mt-20 bg-black">
+     <img src="/logo.png" alt="" class="w-10">
+     <img src="/text_logo.svg" alt="" class="w-44 mt-6">
+     <div class="flex items-center mt-8">
+       <img src="/Rectangle10.png" alt="" class="mx-4">
+       <img src="/twitter-logo-silhouette1.png" alt="" class="mx-4">
+       <img src="/logo-instagram-blanc1.png" alt="" class="mx-4">
+       <img src="/logo-facebook-blanc1.png" alt="" class="mx-4">
+       <img src="/twitter-logo-silhouette1.png" alt="" class="mx-4">
+       <img src="/youtube1.png" alt="" class="mx-4">
+       <img src="/Rectangle10.png" alt="" class="mx-4">
+     </div>
+     <div class="text-white grid grid-cols-5 justify-center items-center mt-12 mb-24">
+       <div class="lg:hidden">
+          <MenuIcon class="w-8 cursor-pointer" @click="MenuOpen = !MenuOpen" />
+        </div>
+       <RouterLink to="/listeArtiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-2 col-end-2 row-start-1 items-center mt-3">-> LISTE ARTISTE</RouterLink>
+       <RouterLink to="/Contact" @click="MenuOpen = !MenuOpen"
+              class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</RouterLink>
+       <p class="col-start-2 col-end-2 row-start-3 items-center mt-3">-> MENTIONS LEGALES</p>
+       <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-1 items-center">-> ARTISTES</RouterLink>
+       <RouterLink to="/Artiste" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-2 items-center">-> FESTIVAL</RouterLink>
+       <RouterLink to="/Programmation" @click="MenuOpen = !MenuOpen"
+              class="col-start-4 col-end-4 row-start-3 items-center mt-3">-> PROGRAMMATION</RouterLink>
+     </div>
+     </div>
     </div>
   </div>
 </template>
