@@ -36,20 +36,45 @@
         
 
       </div>
+      
     </header>
 
 
 </div>
 
- <div class="flex justify-center mr-96 mt-[-550px]">
-  <p class="text-white font-prompt font-bold border-b-2 border-white m-6 mr-96 text-2xl">A propos du Festival</p>
-  </div>
-  <div>
-    <p class="flex text-white mx-80 font-prompt font-bold text-lg mt-16">Notre Festival SPEEDFIRE à été crée dans le but de rassembler bon nombre d’entre vous afin de vous faire passer le week-end le plus dingue de votre vie, afin de permettre à l’ensemble des festivaliers de faire de nouvelles rencontres.</p>
-    <p class="flex text-white mx-80 font-prompt font-bold text-lg mt-16">Cette année nous nous sommes surpassés, nous avons l’honneur d’avoir pour cette évênement des mastodontes de la musique, merci à David Guetta, Martin Garrix, DJ Snake, Petit Biscuit, Calvin Harris ainsi que Marshmello d’avoir répondu à l’appel et ainsi pouvoir passer un Festival qui sera plus que mémorable !</p>
-    <p class="flex text-white mx-80 font-prompt font-bold text-lg mt-16">C’est grâce à vous si cet évênement peut avoir lieu ! Sans vous, ce week-end n’existerais probablement pas...</p>
-    <p class="flex text-white mx-80 font-prompt font-bold text-lg mt-16">C’est grâce à vous si cet évênement peut avoir lieu ! Sans vous, ce week-end n’existerais probablement pas...</p>
+ <div class="justify-center items-center mr-96 mt-[-550px]">
+  <p class="text-white font-prompt font-bold border-b-2 border-white m-6 ">GALERIE D'IMAGES</p>
+  <div class="justify-center items-center">
+    <p class="flex text-white font-prompt font-bold text-lg mt-16">Notre Festival SPEEDFIRE à été crée dans le but de rassembler bon nombre d’entre vous afin de vous faire passer le week-end le plus dingue de votre vie, afin de permettre à l’ensemble des festivaliers de faire de nouvelles rencontres.</p>
+    <p class="flex text-white font-prompt font-bold text-lg mt-16">Cette année nous nous sommes surpassés, nous avons l’honneur d’avoir pour cette évênement des mastodontes de la musique, merci à David Guetta, Martin Garrix, DJ Snake, Petit Biscuit, Calvin Harris ainsi que Marshmello d’avoir répondu à l’appel et ainsi pouvoir passer un Festival qui sera plus que mémorable !</p>
+    <p class="flex text-white font-prompt font-bold text-lg mt-16">C’est grâce à vous si cet évênement peut avoir lieu ! Sans vous, ce week-end n’existerais probablement pas...</p>
+    <p class="flex text-white font-prompt font-bold text-lg mt-16 justify-center">MERCI à VOUS d’être présent !</p>
 </div>
+
+  </div>
+<div class="flex justify-center mr-96">
+  <p class="text-white font-prompt font-bold border-b-2 border-white m-6 mr-96 text-2xl">Retrouvez ici notre Galerie</p>
+  </div>
+  <div class="flex justify-center mr-96 mt-2">
+  <p class="text-white font-prompt font-light m-6 mr-96 text-2xl">PHOTOS</p>
+  </div>
+
+  <div class=" grid grid-cols-9 justify-center items-center">
+    <img class="col-start-3 col-end-3 row-start-1 items-center " src="../../public/image6.png" alt="dfv">
+    <img class="col-start-5 col-end-5 row-start-1 items-center " src="../../public/image7.png" alt="vdf">
+    <img class="col-start-7 col-end-7 row-start-1 items-center " src="../../public/image8.png" alt="vdf">
+    <img class="col-start-3 col-end-3 row-start-2 items-center " src="../../public/image9.png" alt="vd">
+    <img class="col-start-5 col-end-5 row-start-2 items-center " src="../../public/image10.png" alt="te">
+    <img class="col-start-7 col-end-7 row-start-2 items-center" src="../../public/image11.png" alt="bd">
+    <img class="col-start-3 col-end-3 row-start-3 items-center " src="../../public/image12.png" alt="sbs">
+    <img class="col-start-5 col-end-5 row-start-3 items-center " src="../../public/image13.png" alt="ys">
+    <img class="col-start-7 col-end-7 row-start-3 items-center " src="../../public/image23.png" alt="vdf">
+    <img class="col-start-3 col-end-3 row-start-4 items-center " src="../../public/image24.png" alt="vd">
+    <img class="col-start-5 col-end-5 row-start-4 items-center " src="../../public/image25.png" alt="te">
+    <img class="col-start-7 col-end-7 row-start-4 items-center" src="../../public/image26.png" alt="bd">
+    <img class="col-start-3 col-end-3 row-start-5 items-center " src="../../public/image27.png" alt="sbs">
+    <img class="col-start-5 col-end-5 row-start-5 items-center " src="../../public/image28.png" alt="ys">
+  </div>
 
 
 

@@ -76,13 +76,13 @@
   <p class="text-white font-prompt font-bold border-b-2 border-white m-6 ">GALERIE D'IMAGES</p>
   </div>
   <div class=" grid grid-cols-5 justify-center items-center">
-    <img class="col-start-2 col-end-2 row-start-1 items-center " src="../../public/image6.png" alt="">
-    <img class="col-start-2 col-end-2 row-start-2 items-center " src="../../public/image7.png" alt="">
-    <img class="col-start-2 col-end-2 row-start-3 items-center " src="../../public/image8.png" alt="">
-    <img class="col-start-2 col-end-2 row-start-4 items-center " src="../../public/image9.png" alt="">
-    <img class="col-start-4 col-end-4 row-start-1 items-center " src="../../public/image10.png" alt="">
-    <img class="col-start-4 col-end-4 row-start-2 items-center" src="../../public/image11.png" alt="">
-    <img class="col-start-4 col-end-4 row-start-3 items-center " src="../../public/image12.png" alt="">
+    <img class="col-start-2 col-end-2 row-start-1 items-center " src="../../public/image6.png" alt="dfv">
+    <img class="col-start-2 col-end-2 row-start-2 items-center " src="../../public/image7.png" alt="vdf">
+    <img class="col-start-2 col-end-2 row-start-3 items-center " src="../../public/image8.png" alt="vdf">
+    <img class="col-start-2 col-end-2 row-start-4 items-center " src="../../public/image9.png" alt="vd">
+    <img class="col-start-4 col-end-4 row-start-1 items-center " src="../../public/image10.png" alt="te">
+    <img class="col-start-4 col-end-4 row-start-2 items-center" src="../../public/image11.png" alt="bd">
+    <img class="col-start-4 col-end-4 row-start-3 items-center " src="../../public/image12.png" alt="sbs">
     <img class="col-start-4 col-end-4 row-start-4 items-center " src="../../public/image13.png" alt="">
   </div>
           
@@ -100,8 +100,12 @@
        <img src="../../public/Rectangle 10.png" alt="" class="mx-4">
      </div>
      <div class="text-white grid grid-cols-5 justify-center items-center mt-12 mb-24">
+       <div class="lg:hidden">
+          <MenuIcon class="w-8 cursor-pointer" @click="MenuOpen = !MenuOpen" />
+        </div>
        <p class="col-start-2 col-end-2 row-start-1 items-center">-> BILLETS</p>
-       <p class="col-start-2 col-end-2 row-start-2 items-center mt-3">-> CONTACT</p>
+       <RouterLink to="/Contact" @click="MenuOpen = !MenuOpen"
+              >-> CONTACT</RouterLink>
        <p class="col-start-2 col-end-2 row-start-3 items-center mt-3">-> MENTIONS LEGALES</p>
        <p class="col-start-4 col-end-4 row-start-1 items-center ">-> ARTISTES</p>
        <p class="col-start-4 col-end-4 row-start-2 items-center mt-3">-> FESTIVALS</p>
